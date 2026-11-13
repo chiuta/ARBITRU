@@ -1,0 +1,10 @@
+[package]
+name = "arbitru-core"
+description = "Universal rules engine for board, card, dice and puzzle games, with a declarative rule language."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+keywords = ["game", "rules", "board-games", "mcts"]

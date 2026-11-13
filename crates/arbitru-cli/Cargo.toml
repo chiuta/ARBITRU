@@ -1,0 +1,16 @@
+[package]
+name = "arbitru-cli"
+description = "Command-line tool for ARBITRU"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "arbitru"
+path = "src/main.rs"
+
+[dependencies]
+arbitru-core = { workspace = true }
