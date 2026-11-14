@@ -2,13 +2,23 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Version : 0.1.0-alpha.1 · Dernière mise à jour : 13.11.2026
+Version : 0.1.0-alpha.1 · Dernière mise à jour : 2026-11-14
 
 🌐 https://arbitru.chiuta.ro
 
 ## État
 
 Squelette précoce (pré-alpha) : le workspace compile et les tests passent en CI. Chaque fonctionnalité prévue est une tâche ouverte dans `docs/issues/`.
+
+## Périmètre prévu
+
+- Un format de règles déclaratif `.arb` (v0, spécifié en EBNF) et un analyseur pour plateaux en grille, hexagonaux et en graphe.
+- Primitives de déplacement composables : sauteur, coureur et hopper.
+- Jeux comme données : dames anglaises, Puissance 4, Gomoku et une variante d’échecs (Los Alamos, Capablanca ou Racing Kings).
+- Un banc de conformité fondé sur des fichiers perft et un joueur générique par recherche arborescente Monte Carlo.
+- Information cachée et hasard (mélanges à graine, dés, vues partielles) et une page de démonstration WebAssembly.
+
+Rien de tout cela n’est encore implémenté : chaque point est une tâche ouverte dans `docs/issues/`.
 
 ## Compiler et tester
 

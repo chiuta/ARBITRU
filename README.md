@@ -2,13 +2,23 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Version: 0.1.0-alpha.1 · Last updated: 13.11.2026
+Version: 0.1.0-alpha.1 · Last updated: 2026-11-14
 
 🌐 https://arbitru.chiuta.ro
 
 ## Status
 
 Early skeleton (pre-alpha): the workspace builds and the tests pass in CI. Every planned feature is an open task in `docs/issues/`.
+
+## Planned scope
+
+- A declarative `.arb` rules format (v0, specified in EBNF) and a parser for grid, hex and graph boards.
+- Composable movement primitives: leaper, rider and hopper.
+- Games as data: English draughts, Connect Four, Gomoku and a chess variant (Los Alamos, Capablanca or Racing Kings).
+- A conformance harness based on perft files, and a generic Monte Carlo tree search player.
+- Hidden information and chance (seeded shuffles, dice, partial views), and a WebAssembly playground page.
+
+None of this is implemented yet: each item is an open task in `docs/issues/`.
 
 ## Build and test
 

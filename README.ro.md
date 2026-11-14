@@ -2,13 +2,23 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Versiune: 0.1.0-alpha.1 · Ultima actualizare: 13.11.2026
+Versiune: 0.1.0-alpha.1 · Ultima actualizare: 2026-11-14
 
 🌐 https://arbitru.chiuta.ro
 
 ## Stare
 
 Schelet timpuriu (pre-alfa): workspace-ul se compilează, iar testele trec în CI. Fiecare funcție planificată este o sarcină deschisă în `docs/issues/`.
+
+## Domeniu planificat
+
+- Un format declarativ de reguli `.arb` (v0, specificat în EBNF) și un parser pentru table de tip grilă, hexagonal și graf.
+- Primitive de mișcare combinabile: săritor, alergător și hopper.
+- Jocuri ca date: dame englezești, Connect Four, Gomoku și o variantă de șah (Los Alamos, Capablanca sau Racing Kings).
+- Un banc de conformitate bazat pe fișiere perft și un jucător generic cu căutare Monte Carlo în arbore.
+- Informație ascunsă și șansă (amestecări cu sămânță, zaruri, vederi parțiale) și o pagină WebAssembly de joacă.
+
+Nimic din asta nu este implementat încă: fiecare punct este o sarcină deschisă în `docs/issues/`.
 
 ## Compilare și testare
 
